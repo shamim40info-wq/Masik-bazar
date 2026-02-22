@@ -8,6 +8,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script>
+  const supabaseUrl = "https://zogkfmzrqmbwwmyunwbf.supabase.co";
+  const supabaseKey = "YOUR_PUBLISHABLE_KEY";
+
+  const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+  console.log("Supabase Connected ✅");
+</script>
+    
   </body>
 </html>
 
